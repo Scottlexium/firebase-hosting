@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .4s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.main_man{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+}
+.scrolled{
+    background-color: white;
+    height: 60px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.08);
+}
+.scrolled nav a{
+    color:#facc18;
+}
+.scrolled nav h1{
+    color: #facc18;
+}
+.main_man nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+.main_man h1{
+    flex: 1;
+    color: white;
+}
+.main_man ul{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_man a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-image: url('/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body{
+    width: 100%;
+}
+.hero_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    padding: 60px;
+}
+.left h1{
+    font-size: 5em;
+    color: white;
+}
+.left p{
+    width: 50%;
+    font-size: 14px;
+    color: white;
+}
+.left button{
+    background: none;
+    outline: none;
+    color: white;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.left button:hover{
+    background-color: white;
+    color: #facc18;
+    border: solid 1px white;
+}
